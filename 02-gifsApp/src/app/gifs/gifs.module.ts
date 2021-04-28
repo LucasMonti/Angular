@@ -16,7 +16,8 @@ import { ResultadosComponent } from './resultados/resultados.component';
     CommonModule
   ],
   exports: [
-    GifsPageComponent
+    GifsPageComponent,
+    ResultadosComponent
   ]
 })
 export class GifsModule { }

@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {SharedModule} from './shared/shared.module';
 import {GifsModule} from './gifs/gifs.module';
-
+import {CommonModule} from '@angular/common'
 @NgModule({
   declarations: [
     AppComponent
@@ -15,7 +15,8 @@ import {GifsModule} from './gifs/gifs.module';
     ReactiveFormsModule,
     SharedModule,
     GifsModule,
-    HttpClientModule
+    HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

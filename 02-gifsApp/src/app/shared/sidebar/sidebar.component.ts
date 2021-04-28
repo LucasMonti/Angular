@@ -17,4 +17,9 @@ export class SidebarComponent implements OnInit {
     return this.gifsService.historial
   }
 
+  showElement(event : any) {
+      this.gifsService.buscarGifs(event)
+    console.log(event);
+  }
+
 }

@@ -7,7 +7,8 @@
   <div class="list-group list-reset">
     <a href="#"
        class="list-group-item list-group-item-action"
-    *ngFor="let element of historial">
+    *ngFor="let element of historial"
+    (click)="showElement(element)">
       {{element | titlecase}}
     </a>
   </div>
